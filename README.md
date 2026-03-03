@@ -1,20 +1,25 @@
 # Overview
+
 Yumrank is a simple way to rank food options in descending order (1 being the best).
 
 ## Tech Stack
+
 Frontend - NextJS
 Backend - Python FastAPI
 DB - sqlite + sqlalchemy
 
-## General Setup 
+## General Setup
 
 1 - Clone the repo with the following command
+
 ```
-x
+git clone https://github.com/eshaanrawat1/yumrank.git
 ```
 
 ## Backend Setup
-Create a virtual environment in /backend 
+
+1 - Create a virtual environment in /backend 
+
 ```
 cd backend/
 
@@ -23,26 +28,41 @@ source .venv/bin/activate
 ```
 
 
-Then, install the needed requirements
+
+2 - Then, install the needed requirements
+
 ```
 pip install -r requirements.txt
 ```
 
 
-To start the backend server run
+
+3 - Run the `create_tables.py` file once before running the app to initialize the SQLite DB
+
+
+
+4 - To start the backend server run
+
 ```
 uvicorn main:app --reload
 ```
 
+
+
 ## Frontend Setup
-Navigate to the frontend directory and run the following command:
+
+1 - Navigate to the frontend directory and run the following command:
+
 ```
 cd frontend/
 npm install
 ```
 
 
-To run the frontend run
+
+2 - To run the frontend
+
 ```
 npm run dev
 ```
+
