@@ -1,6 +1,7 @@
 # Overview
 
 Yumrank is a simple way to rank food options in descending order (1 being the best).
+<img width="1312" height="691" alt="Screenshot 2026-03-02 at 5 14 30 PM" src="https://github.com/user-attachments/assets/04e0c2b7-0588-4873-b6fe-c5532358a476" />
 
 ## Tech Stack
 
